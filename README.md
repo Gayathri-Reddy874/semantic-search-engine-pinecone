@@ -26,6 +26,14 @@ tests/                       # Unit tests (mocked Pinecone — no network/API ke
 doesn't know Streamlit exists. `search_service.py` is the only module the UI
 talks to.
 
+## Screenshots
+
+**Search in action** — upload a Q&A file, embed it via Pinecone's integrated inference, then query it in plain English:
+
+![Search results](screenshots/search-results.png)
+
+> Add more screenshots to `screenshots/` (e.g. the upload flow, index stats after upload) and reference them here the same way.
+
 ## Features
 
 - **Integrated embeddings** — Pinecone embeds text server-side (`multilingual-e5-large`); no separate embedding API calls to manage.
@@ -112,3 +120,13 @@ Semantic search retrieves results based on meaning rather than exact keyword mat
 - Add authentication before exposing the upload endpoint publicly
 - Add a `/health` endpoint for container orchestration probes beyond the Docker healthcheck
 - Support delete/re-index operations from the UI
+
+## Author
+
+**Gayathri (Mallareddygari Gayathri)**
+AI/ML Engineer
+GitHub: [@Gayathri-Reddy874](https://github.com/Gayathri-Reddy874)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
