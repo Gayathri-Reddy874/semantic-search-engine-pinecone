@@ -30,7 +30,7 @@ talks to.
 
 **Search in action** — upload a Q&A file, embed it via Pinecone's integrated inference, then query it in plain English:
 
-![Search results](screenshots/search-results.png)
+![Search results](screenshots/Search-results.png)
 
 > Add more screenshots to `screenshots/` (e.g. the upload flow, index stats after upload) and reference them here the same way.
 
