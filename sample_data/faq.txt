@@ -1,0 +1,10 @@
+What is Pinecone?
+Pinecone is a managed vector database used for fast similarity search.
+What is a vector embedding?
+A vector embedding is a numerical representation of data that captures semantic meaning.
+What is semantic search?
+Semantic search retrieves results based on meaning rather than exact keyword matches.
+What is Streamlit?
+Streamlit is a Python framework for building interactive data apps with minimal code.
+What is retrieval-augmented generation?
+Retrieval-augmented generation combines a search step with a language model to ground its answers in retrieved documents.
