@@ -17,15 +17,24 @@ The app is split into a thin UI layer and a testable core, so business logic
 never depends on Streamlit:
 
 ```
-app.py                     # Streamlit UI — rendering only
-src/
-├── config.py               # Typed, validated settings (env-driven)
-├── document_loader.py      # Parses raw text into Document objects
-├── pinecone_client.py      # Pinecone SDK wrapper: connect, upsert, search, retries
-├── search_service.py       # Orchestrates loader + client for the UI
-├── exceptions.py           # App-specific exception hierarchy
-└── logger.py                # Structured logging
-tests/                       # Unit tests (mocked Pinecone — no network/API key needed)
+semantic-search-engine-pinecone/
+├── app.py                   # Streamlit UI — rendering only
+├── src/
+│   ├── config.py            # Typed, validated settings (env-driven)
+│   ├── document_loader.py   # Parses raw text into Document objects
+│   ├── pinecone_client.py   # Pinecone SDK wrapper: connect, upsert, search, retries
+│   ├── search_service.py    # Orchestrates loader + client for the UI
+│   ├── exceptions.py        # App-specific exception hierarchy
+│   └── logger.py            # Structured logging
+├── tests/                   # Unit tests (mocked Pinecone — no network/API key needed)
+├── sample_data/
+│   └── faq.txt              # Sample Q&A file for trying the app immediately
+├── screenshots/             # README images
+├── Dockerfile
+├── pyproject.toml           # Project metadata + ruff/pytest config
+├── requirements.txt         # Production dependencies
+├── requirements-dev.txt     # + pytest, ruff (dev/CI only)
+└── LICENSE
 ```
 
 **Why this structure:** each layer can be tested and swapped independently.
@@ -103,11 +112,6 @@ Pinecone is a managed vector database used for fast similarity search.
 What is semantic search?
 Semantic search retrieves results based on meaning rather than exact keyword matches.
 ```
-
-## CI/CD
-
-`.github/workflows/ci.yml` runs on every push/PR to `main`: `ruff` lint →
-`pytest` with coverage → Docker build verification.
 
 ## Configuration Reference
 
