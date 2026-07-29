@@ -18,7 +18,7 @@ never depends on Streamlit:
 
 ```
 semantic-search-engine-pinecone/
-├── app.py                   # Streamlit UI — rendering only
+├── app.py                   # Streamlit UI - rendering only
 ├── src/
 │   ├── config.py            # Typed, validated settings (env-driven)
 │   ├── document_loader.py   # Parses raw text into Document objects
