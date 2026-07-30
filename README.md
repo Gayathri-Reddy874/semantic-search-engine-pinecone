@@ -44,7 +44,7 @@ talks to.
 
 ## Screenshots
 
-**Search in action** — upload a Q&A file, embed it via Pinecone's integrated inference, then query it in plain English:
+**Search in action** - upload a Q&A file, embed it via Pinecone's integrated inference, then query it in plain English:
 
 ![Search results](screenshots/Search-results.png)
 
