@@ -2,7 +2,7 @@
 Thin, testable wrapper around the Pinecone SDK.
 
 Encapsulates connection setup, index creation-if-missing, batched
-upserts, and querying — with retries on transient failures and
+upserts, and querying - with retries on transient failures and
 translation of SDK exceptions into the app's own exception types so
 callers never need to import `pinecone` directly.
 """
