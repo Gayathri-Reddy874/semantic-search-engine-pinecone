@@ -1,5 +1,5 @@
 """
-Semantic Search Engine — Streamlit front end.
+Semantic Search Engine - Streamlit front end.
 
 This module is intentionally "thin": it handles rendering and user
 interaction only. All parsing, embedding, and storage logic lives in
