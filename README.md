@@ -137,6 +137,7 @@ Semantic search retrieves results based on meaning rather than exact keyword mat
 **Gayathri (Mallareddygari Gayathri)**
 
 AI/ML Engineer
+
 GitHub: [@Gayathri-Reddy874](https://github.com/Gayathri-Reddy874)
 
 ## License
