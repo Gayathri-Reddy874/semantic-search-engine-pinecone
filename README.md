@@ -54,6 +54,8 @@ talks to.
 
 > Add more screenshots to `screenshots/` (e.g. the upload flow, index stats after upload) and reference them here the same way.
 
+---
+
 ## Features
 
 - **Integrated embeddings** - Pinecone embeds text server-side (`multilingual-e5-large`); no separate embedding API calls to manage.
