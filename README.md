@@ -44,6 +44,8 @@ semantic-search-engine-pinecone/
 doesn't know Streamlit exists. `search_service.py` is the only module the UI
 talks to.
 
+---
+
 ## Screenshots
 
 **Search in action** - upload a Q&A file, embed it via Pinecone's integrated inference, then query it in plain English:
