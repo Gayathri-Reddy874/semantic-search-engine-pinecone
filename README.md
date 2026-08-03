@@ -113,6 +113,8 @@ What is semantic search?
 Semantic search retrieves results based on meaning rather than exact keyword matches.
 ```
 
+---
+
 ## Configuration Reference
 
 | Variable | Default | Description |
