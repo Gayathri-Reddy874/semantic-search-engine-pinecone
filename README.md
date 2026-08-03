@@ -11,6 +11,8 @@ A production-grade semantic search application built with **Streamlit** and
 **Pinecone's integrated inference API**. Upload a Q&A text file, embed it with
 zero manual embedding calls, and query it in natural language.
 
+---
+
 ## Architecture
 
 The app is split into a thin UI layer and a testable core, so business logic
