@@ -117,7 +117,7 @@ Semantic search retrieves results based on meaning rather than exact keyword mat
 
 | Variable | Default | Description |
 |---|---|---|
-| `PINECONE_API_KEY` | — (required) | Pinecone API key |
+| `PINECONE_API_KEY` | - (required) | Pinecone API key |
 | `PINECONE_INDEX_NAME` | `rag-semantic` | Index to create/use |
 | `PINECONE_NAMESPACE` | `default` | Namespace within the index |
 | `EMBEDDING_MODEL` | `multilingual-e5-large` | Pinecone integrated embedding model |
