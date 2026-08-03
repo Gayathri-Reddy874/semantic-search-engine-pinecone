@@ -65,6 +65,8 @@ talks to.
 - **Typed exceptions** - `DocumentParsingError`, `VectorStoreUpsertError`, etc., so the UI can show specific, actionable messages instead of generic failures.
 - **20 unit tests, 88% coverage** - Pinecone calls are mocked, so the suite runs offline in CI.
 
+---
+
 ## Getting Started
 
 ### 1. Install
