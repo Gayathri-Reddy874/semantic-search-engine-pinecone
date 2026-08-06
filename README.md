@@ -152,6 +152,8 @@ AI/ML Engineer
 
 GitHub: [@Gayathri-Reddy874](https://github.com/Gayathri-Reddy874)
 
+---
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
