@@ -142,6 +142,8 @@ Semantic search retrieves results based on meaning rather than exact keyword mat
 - Add a `/health` endpoint for container orchestration probes beyond the Docker healthcheck
 - Support delete/re-index operations from the UI
 
+---
+
 ## Author
 
 **Gayathri (Mallareddygari Gayathri)**
