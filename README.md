@@ -95,6 +95,8 @@ Upload `sample_data/faq.txt` (alternating question/answer lines), click
 **Upload to Pinecone**, then ask a question like *"what is a vector
 embedding?"*
 
+---
+
 ## Running Tests
 
 ```bash
